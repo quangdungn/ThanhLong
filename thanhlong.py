@@ -1,6 +1,6 @@
 mport os
-from ultralytics import YOLO
+import SCL
 
-model = YOLO("scl.pt")
+model = SCL("scl.pt")
 
 results = model.train(data="mydataset.yaml", epochs=100)
