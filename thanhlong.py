@@ -1,5 +1,5 @@
 mport os
-import SCL
+from scls.scl import SCL
 
 model = SCL("scl.pt")
 
